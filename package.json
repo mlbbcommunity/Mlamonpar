@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-auth-site",
+  "version": "1.0.0",
+  "description": "Upload WhatsApp auth_info to MEGA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mega": "^8.0.0",
+    "multer": "^1.4.5"
+  }
+}

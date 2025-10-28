@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: whatsapp-auth-site
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: MEGA_EMAIL
+        sync: false
+      - key: MEGA_PASSWORD
+        sync: false
+      - key: UPLOAD_FOLDER
+        value: auth_files
